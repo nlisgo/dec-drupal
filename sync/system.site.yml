@@ -1,0 +1,14 @@
+uuid: 755b7afb-07c7-4f81-a9fa-c02927879637
+name: 'DEC Drupal'
+mail: admin@example.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
