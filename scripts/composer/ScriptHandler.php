@@ -89,6 +89,11 @@ class ScriptHandler {
       $fs->symlink('../../src/modules', $drupal_root . '/modules/custom');
     }
 
+    // Create symlink to custom themes folder.
+    if ($fs->exists($src_root . '/themes') && !$fs->exists($drupal_root . '/themes/custom')) {
+      $fs->symlink('../../src/themes', $drupal_root . '/themes/custom');
+    }
+
     // Create symlink to custom modules folder.
     if ($fs->exists($root . '/private')) {
       $fs->symlink('../../src/modules', $drupal_root . '/modules/custom');
